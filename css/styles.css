@@ -730,13 +730,20 @@ gap: 40px;
 .form-footer {
     display: flex;
     justify-content: flex-start;
+    gap: 24px;
+}
+
+.label-footer {
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
 }
 
 .input-form-footer {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    margin-right: 24px;
     padding-left: 16px;
     width: 264px;
     height: 40px;
@@ -744,6 +751,12 @@ gap: 40px;
     border-radius: 4px;
     background: #2e2f42;
     color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
@@ -757,13 +770,22 @@ gap: 40px;
 
 .button-form-footer {
     border-radius: 4px;
-    padding: 8px 24px;
+    /* padding: 8px 24px; */
     width: 165px;
     height: 40px;
-    background: #4d5ae5;
+    background-color: #4d5ae5;
+    color: #ffffff;
     fill: #f4f4fd;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+    border: none;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
