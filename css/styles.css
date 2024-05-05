@@ -496,24 +496,27 @@ gap: 40px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
+    margin-bottom: 16px; 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    margin-bottom: 16px; 
 }
 
 .subscribe-form {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
 }
 
+
 .form-footer {
     display: flex;
+    flex-direction: row;
     justify-content: flex-start;
     gap: 24px;
 }
 
 .label-footer {
+    display: block;
     border: 1px solid #ffffff;
     border-radius: 4px;
     width: 264px;
@@ -522,8 +525,8 @@ gap: 40px;
 
 .input-form-footer {
     display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-left: 16px;
     width: 264px;
     height: 40px;
